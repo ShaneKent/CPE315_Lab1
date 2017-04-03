@@ -8,12 +8,8 @@ main ()
    size_t c = sizeof(int);
    size_t d = sizeof(long);
 
-   printf("%d", a);
-   printf("\n");
-   printf("%d", b);
-   printf("\n");
-   printf("%d", c);
-   printf("\n");
-   printf("%d", d);
-   printf("\n");
+   printf("Size of byte = %d\n", a);
+   printf("Size of short int = %d\n", b);
+   printf("Size of int = %d\n", c);
+   printf("Size of long int = %d\n", d);
 }
