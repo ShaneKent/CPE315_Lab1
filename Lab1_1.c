@@ -1,15 +1,11 @@
 #include <stdio.h>
-#include <stddef.h>
 
-main ()
-{
-   size_t a = sizeof(char);
-   size_t b = sizeof(short);
-   size_t c = sizeof(int);
-   size_t d = sizeof(long);
+int main () {
 
-   printf("Size of byte = %d\n", a);
-   printf("Size of short int = %d\n", b);
-   printf("Size of int = %d\n", c);
-   printf("Size of long int = %d\n", d);
+   printf("byte = %lu\n", sizeof(unsigned char));
+   printf("short int = %lu\n", sizeof(short int));
+   printf("int = %lu\n", sizeof(int));
+   printf("long int = %lu\n", sizeof(long int));
+
+   return 0;
 }
