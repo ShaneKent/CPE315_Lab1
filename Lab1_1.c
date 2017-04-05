@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "Lab1_1.h"
 
 void Part1() 
 {
