@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-int main () {
-
+void Part1() 
+{
+   printf("Part 1: Data Type and their Sizes\n");
+   printf("========================\n");
    printf("byte = %lu\n", sizeof(unsigned char));
    printf("short int = %lu\n", sizeof(short int));
    printf("int = %lu\n", sizeof(int));
    printf("long int = %lu\n", sizeof(long int));
-
-   return 0;
+   printf("========================\n\n");
 }
