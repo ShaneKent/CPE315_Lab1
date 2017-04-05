@@ -17,9 +17,9 @@ void Part3()
 void adder(unsigned int a, unsigned int b)
 {
    unsigned int c = a + b;
-   if (c >= 128)
+   if (c >= 256)
    {
-      c-=128;
+      c -= 256;
    }
 
    printf("0x%X + 0x%X = 0x%X\n", a, b, c);
