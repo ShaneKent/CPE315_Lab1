@@ -4,6 +4,7 @@
 #include "Lab1_3.h"
 #include "Lab1_4.h"
 #include "Lab1_5.h"
+#include "Lab1_6.h"
 
 int main(int argc, char *argv[]){
    Part1();
@@ -11,5 +12,6 @@ int main(int argc, char *argv[]){
    Part3();
    Part4();
    Part5();
+   Part6();
    return 0;
 }

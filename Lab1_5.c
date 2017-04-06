@@ -19,5 +19,5 @@ void signed_adder(signed short int a, signed short int b){
       x = 1;
    }
 
-   printf("0x%hx + 0x%hx Overflow: %x\n", a, b, x);
+   printf("0x%02hx + 0x%02hx Overflow: %x\n", a, b, x);
 }

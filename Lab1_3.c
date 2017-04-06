@@ -23,5 +23,5 @@ void adder3(unsigned int a, unsigned int b)
       c -= 256;
    }
 
-   printf("0x%X + 0x%X = 0x%x\n", a, b, c);
+   printf("0x%02X + 0x%02X = 0x%02x\n", a, b, c);
 }

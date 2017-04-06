@@ -23,5 +23,5 @@ void adder4(unsigned int a, unsigned int b)
       x = 1;
    }
 
-   printf("0x%X + 0x%X Carry: %x\n", a, b, x);
+   printf("0x%02X + 0x%02X Carry: %x\n", a, b, x);
 }
